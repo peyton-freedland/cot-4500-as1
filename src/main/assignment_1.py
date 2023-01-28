@@ -24,12 +24,14 @@ def double_precision():
 
     # Question 2
     num *= (10 ** -3)
-    print((math.floor(num * 1000)) / 1000)
+    num = math.floor(num * 1000) / 1000
+    num *= 1000
+    print(num)
     print()
 
     # Question 3
-    num += 0.0005
-    print(round(num, ndigits = 3))
+    num += 0.500
+    print(round(num, ndigits = 0))
     print()
 
     # Question 4
@@ -82,6 +84,7 @@ def question_6():
     print(bisection_method(f_x, -4, 7, 0.0001))
     print()
     print(newton_raphson_method(f_x, df_dx, 7, 0.0001))
+    print()
 
 double_precision()
 question_5()
