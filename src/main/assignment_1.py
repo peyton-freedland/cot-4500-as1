@@ -42,7 +42,7 @@ def double_precision():
         return abs(absolute_error(precise, approx)) / abs(precise)
 
     print(absolute_error(ans1, round(ans1, 0)))
-    print(relative_error(ans1, round(ans1, 0)))
+    print("{:.31f}".format(relative_error(ans1, round(ans1, 0))))
     print()
 
 # Question 5
