@@ -18,5 +18,5 @@ pip install numpy
 ```
 
 - In command line, type `python assignment_1.py`, then either press `ENTER/RETURN` or click the `RUN` button (▷) to run program.
--- To save output to file, type `python [INSERT DIRECTORIES HERE]/assignment_1.py > "answers.txt"`
+  - To save output to file, type `python [INSERT DIRECTORIES HERE]/assignment_1.py > "answers.txt"`
 - After running program, type `diff [INSERT DIRECTORIES HERE]/src/main/answers.txt [INSERT DIRECTORIES HERE]/src/main/answers-5.txt` to compare output to downloaded file.
